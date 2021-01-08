@@ -12,5 +12,6 @@ namespace P3_Code
         AppUser GetByUserName(string UserName);
         bool Login(string UserName, string Password);
         bool SetAuthentication(string UserName, bool IsAuthenticated);
+
     }
 }
